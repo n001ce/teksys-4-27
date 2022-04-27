@@ -13,7 +13,7 @@ public class ScannerFile {
 			Scanner input = new Scanner(file);
 			String data = "";
 			while(input.hasNextLine()) { //while file has next line, data becomes that line
-				data = input.nextLine();
+				data += input.nextLine();
 			}
 		}catch(FileNotFoundException e) { //if file isn't found print file not found
 			System.out.println("File not found!");
