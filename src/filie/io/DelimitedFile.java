@@ -10,6 +10,12 @@ import java.util.Scanner;
 public class DelimitedFile {
 
 	public static void main(String[] args) throws IOException {
+		/*Create a delimited file. Go to desktop right click and create
+		 * new text file. Then change the name to courses.csv
+		 * This will create a new .csv file to write to.
+		 * Right click the file go to properties and copy the file location
+		 * and paste it in String location.
+		 */
 		String location = "C:\\Users\\Kepler01635\\Desktop\\courses.csv";
 		File file = new File(location);
 		FileWriter writer;
