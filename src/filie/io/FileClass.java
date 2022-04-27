@@ -3,18 +3,21 @@
  */
 package filie.io;
 
-/**
- * @author Kepler01635
- *
- */
+import java.io. * ;
 public class FileClass {
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+ public static void main(String[] args) {
+	 File f = new File("insert location here");
+	 System.out.println(f.mkdir());
+//   try {
+//    File f = new File("insert file location here”);
+//     if (f.createNewFile()) {
+//       System.out.println("New File created!");
+//     } else {
+//       System.out.println("The file already exists.");
+//     }
+//   } catch(IOException e) {
+//     e.printStackTrace();
+//   }
+ }
 }
+
