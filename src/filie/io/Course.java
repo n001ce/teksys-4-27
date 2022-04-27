@@ -16,7 +16,7 @@ public class Course {
 	}
 	
 	public String getCode() {
-		return this.getCode();
+		return this.code;
 	}
 	
 	public String getName() {
