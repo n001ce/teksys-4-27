@@ -4,7 +4,7 @@ import java.io.File;
 
 public class FileExercise {
   public static void main(String args[]) {
-    File f1 = new File("C:\\Users\\PSAdmin\\Downloads\\TestingFolder\\file.txt");
+    File f1 = new File("insert file location here");
     System.out.println("File Name: " + f1.getName());
     System.out.println("Path: " + f1.getPath());
     System.out.println("Abs Path: " + f1.getAbsolutePath());
